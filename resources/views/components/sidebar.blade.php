@@ -18,6 +18,17 @@
                     </li>
                 </ul>
             </li>
+
+            <li class="nav-item dropdown">
+                <a href="#"
+                    class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Users</span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="nav-link"
+                            href="{{ route('user.index') }}">All Users</a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </aside>
 </div>
