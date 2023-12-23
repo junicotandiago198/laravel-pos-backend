@@ -60,11 +60,11 @@
                                 <div class="bar"></div>
                                 <div class="label"></div>
                             </div>
-                            @error
+                            {{-- @error
                                 <div class="invalid-feedback">
                                     {{$message}}
                                 </div>
-                            @enderror
+                            @enderror --}}
                         </div>
                     </div>
 
@@ -76,11 +76,11 @@
                                 type="password"
                                 class="form-control @error('password_confirmation') is-invalid @enderror"
                                 name="password_confirmation">
-                            @error
+                            {{-- @error
                                 <div class="invalid-feedback">
                                     {{$message}}
                                 </div>
-                            @enderror
+                            @enderror --}}
                         </div>
                     </div>
 
